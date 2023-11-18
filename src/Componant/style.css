@@ -1,0 +1,100 @@
+*{
+	margin:0px;
+	padding:0px;
+}
+body{
+	background:url("../src/Assets/Imges/i3.jpeg");
+}
+#page-wrap{
+	width:95%;
+	margin:10px auto;
+}
+.header{
+	border:solid 1px #888;
+	height:150px;
+	border-radius:30px;
+	text-align:center;
+	background:url("../src/Assets/Imges/i3.jpeg");	opacity:0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+}
+#nav{
+	border:solid 1px #888;
+	height:60px;
+	border-radius:30px;
+	overflow:hidden;
+	opacity:0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+	background:#fff;
+	color:#000;
+}
+#nav ul li{
+	display:block;
+	width:20%;
+	float:left;
+}
+#nav ul li a{
+	display:block;
+	line-height:60px;
+	text-align:center;
+	text-decoration:none;
+	color:#000;
+}
+#nav ul li a:hover{
+	display:block;
+	line-height:60px;
+	text-align:center;
+	text-decoration:none;
+	color:#fff;
+	background:#000;
+}
+.sidebar{
+	
+	min-height:500px;
+	float:left;
+	width:23%;
+}
+.sidebar2{
+	min-height:500px;
+	float:right;
+	width:23%;
+}
+#content{
+	border:solid 1px #888;
+	height:500px;
+	float:left;
+	width:69%;
+	margin:0 2%;
+	border-radius:30px;
+	text-indent:30px;
+	opacity:0.5;
+	filter: alpha(opacity=50); /* For IE8 and earlier */
+	background:#fff;
+	color:#000;
+}
+.footer{
+	border:solid 1px #888;
+	height:30px;
+	line-height:30px;
+	border-radius:30px;
+	text-align:center;
+	background:#6FD2F2
+}
+.space{
+	margin:10px;
+}
+.clear{
+	clear:both;
+}
+.box{
+	border:solid 1px #305E6E;
+	margin-bottom:20px;	
+	background:#ededed;
+}
+.box h2{
+	background:#6FD2F2;
+	color:#fff;
+}
+.box ul{
+	margin-left:30px;
+	list-style:none;	
+}

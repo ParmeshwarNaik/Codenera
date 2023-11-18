@@ -1,0 +1,25 @@
+
+
+.product-filter {
+  text-align: center;
+  margin: 20px;
+  border: 2px solid seagreen;
+}
+
+.select-label {
+  margin-right: 10px;
+}
+
+.select-element {
+  padding: 5px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  width: 200px;
+  margin-right: 10px;
+}
+
+.selected-info {
+  margin: 10px 0;
+  font-weight: bold;
+  color: #007bff; /* Blue color for selected info */
+}
